@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1347,
+    "title": "Cardiology",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Heart_diagram_blood_flow_en.svg/330px-Heart_diagram_blood_flow_en.svg.png",
+    "description": "Blood flow diagram of the human heart. Blue components indicate de-oxygenated blood pathways and red components indicate oxygenated blood pathways."
+  },
+  {
+    "id": 2698,
+    "title": "Neurology",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/PLoSBiol4.e126.Fig6fNeuron.jpg",
+    "description": "A neurological disorder is any disorder of the nervous system. Structural, biochemical or electrical abnormalities in the brain, spinal cord or other nerves"
+  },
+  {
+    "id": 3267,
+    "title": "Psychology",
+    "photoUrl": "https://www.mydoorsign.com/img/lg/S/psychology-symbol-hospital-sign-s2-0984.png",
+    "description": "Psychology is the science of mind and behavior. Psychology includes the study of conscious and unconscious phenomena, as well as feelings and thought. It is an academic discipline of immense scope,"
+  },
+  {
+    "id": 4845,
+    "title": "CT Scan",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/UPMCEast_CTscan.jpg/1200px-UPMCEast_CTscan.jpg",
+    "description": "A CT scan or computed tomography scan is a medical imaging technique used in radiology to get detailed images of the body noninvasively for diagnostic purposes."
+  },
+  {
+    "id": 5041,
+    "title": "Pathology",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Pathologists_looking_into_microscopes_%281%29.jpg/275px-Pathologists_looking_into_microscopes_%281%29.jpg",
+    "description": "A pathologist examines a tissue section for evidence of cancerous cells while a surgeon observes.Pathology is the study of the causes and effects of disease or injury."
+  },
+  {
+    "id": 6501,
+    "title": "Oral medicine",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Orofacial_pain_Lateral_head_skull.jpg/220px-Orofacial_pain_Lateral_head_skull.jpg",
+    "description": "An oral medicine doctor has received additional specialized training and experience in the diagnosis and management of oral mucosal abnormalities including oral cancer, "
+  }
+]
