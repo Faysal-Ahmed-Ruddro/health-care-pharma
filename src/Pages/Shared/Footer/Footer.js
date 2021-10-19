@@ -23,7 +23,7 @@ const Footer = () => {
             {/* <!-- Email input --> */}
             <div className="form-outline form-white mb-4">
               <input type="email" id="form5Example2" className="form-control" />
-              <label className="form-label my-2" for="form5Example2">Email address</label>
+              <label className="form-label my-2" htmlFor="form5Example2">Email address</label>
             </div>
           </div>
           {/* <!--Grid column--> */}

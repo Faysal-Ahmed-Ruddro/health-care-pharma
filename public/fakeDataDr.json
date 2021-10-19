@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1347,
+    "name": "Dr. Neupane Commodo",
+    "specialist": "Cardiology",
+    "photoUrl": "https://i.ibb.co/K5XXCN6/dr1.png",
+    "description": "Blood flow diagram of the human heart. Blue components indicate de-oxygenated blood pathways and red components indicate oxygenated blood pathways."
+  },
+  {
+    "id": 2698,
+    "name": "Dr. Jake",
+    "specialist": "Neurology",
+    "photoUrl": "https://i.ibb.co/w0mpywd/dr2.png",
+    "description": "A neurological disorder is any disorder of the nervous system. Structural, biochemical or electrical abnormalities in the brain, spinal cord or other nerves"
+  },
+  {
+    "id": 3267,
+    "name": "Dr.Madeline",
+    "specialist": "Psychology",
+    "photoUrl": "https://i.ibb.co/y6S5HGw/dr3.png",
+    "description": "Psychology is the science of mind and behavior. Psychology includes the study of conscious and unconscious phenomena, as well as feelings and thought. It is an academic discipline of immense scope,"
+  },
+  {
+    "id": 4845,
+    "name": "Dr.Jane",
+    "specialist": "CT Scan",
+    "photoUrl": "https://i.ibb.co/vvTQsb9/dr4.png",
+    "description": "A CT scan or computed tomography scan is a medical imaging technique used in radiology to get detailed images of the body noninvasively for diagnostic purposes."
+  },
+  {
+    "id": 5041,
+    "name": "Dr. Mike Libarto",
+    "specialist": "Pathology",
+    "photoUrl": "https://i.ibb.co/dGwYms7/dr5.png",
+    "description": "A pathologist examines a tissue section for evidence of cancerous cells while a surgeon observes.Pathology is the study of the causes and effects of disease or injury."
+  },
+  {
+    "id": 6501,
+    "name": "Dr.Chris  ",
+    "specialist": "Oral medicine",
+    "photoUrl": "https://i.ibb.co/N9hQ7Wv/dr6.png",
+    "description": "An oral medicine doctor has received additional specialized training and experience in the diagnosis and management of oral mucosal abnormalities including oral cancer, "
+  }
+]
+
+
+
+
+

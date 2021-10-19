@@ -6,8 +6,9 @@ import Team from "./Pages/Team/Team";
 import Home from "./Pages/Home/Home/Home";
 import Contact from "./Pages/Contact/Contact";
 import Login from "./Pages/Login/Login";
-import Services from "./Pages/Home/Services/Services";
 import Footer from "./Pages/Shared/Footer/Footer";
+import NotFound from "./Pages/NotFound/NotFound";
+import Regester from "./Pages/Regester/Regester";
 
 
 
@@ -35,8 +36,11 @@ function App() {
         <Route exact path="/login">
           <Login></Login>
         </Route>
-        <Route>
-          <Services></Services>
+        <Route exact path="/regester">
+          <Regester></Regester>
+        </Route>
+        <Route path="*">
+          <NotFound></NotFound>
         </Route>
       </Switch>
       <Footer></Footer>

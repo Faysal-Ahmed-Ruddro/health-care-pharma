@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css"
-import workingLady from "../../images/working-lady.jpg"
+import workingLady from "../../images/working-lady.png"
 
 const About = () => {
     return (
@@ -10,10 +10,10 @@ const About = () => {
             <h2 className="about-title">About Us</h2>
           </div>
         </div>
-        <div className=" mx-auto row p-5 text-white about-card">
+        <div className=" mx-auto row  text-white about-card">
           <div className="col-lg-6">
-            <div className="p-4">
-              <img style={{width:"100%",height:"400px"}} src={workingLady} alt="" />
+            <div className="pt-2">
+              <img style={{width:"60%",height:"450px"}} src={workingLady} alt="" />
             </div>
           </div>
           <div className="col-lg-6">
