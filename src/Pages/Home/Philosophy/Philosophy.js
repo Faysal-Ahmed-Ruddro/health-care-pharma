@@ -7,12 +7,14 @@ const Philosophy = () => {
       <div style={{ backgroundColor: "#1565c0" }}>
         <div className="row mx-auto ">
           <div className="col-lg-6">
-            <img
-              className="doctors-img"
-              style={{ width: "100%" }}
-              src={doctors}
-              alt=""
-            />
+            <div>
+              <img
+                className="doctors-img"
+                style={{ width: "100%" }}
+                src={doctors}
+                alt=""
+              />
+            </div>
           </div>
           <div className="col-lg-6  p-3 ">
             <div className=" my-5">
