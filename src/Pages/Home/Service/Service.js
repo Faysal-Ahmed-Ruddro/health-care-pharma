@@ -1,9 +1,10 @@
 import React from 'react';
 import "./Service.css"
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 const Service = (props) => {
-    const {title,photoUrl,description} = props.service
+    const {id,title,photoUrl,description} = props.service;
     return (
       <div className="col-lg-4 col-md-6 col-12">
         <Card className="card-bg m-2" style={{ height: "480px" }}>
@@ -13,11 +14,13 @@ const Service = (props) => {
             src={photoUrl}
           />
           <Card.Body>
-            <Card.Title>{title}</Card.Title>
+            <Card.Title>{title} </Card.Title>
             <Card.Text>{description}</Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button variant="info" className="text-w">Details</Button>
+            <Link to={`/serviceDetails/${id}`}>
+              <button className="btn btn-info">Details</button>
+            </Link>
           </Card.Footer>
         </Card>
       </div>

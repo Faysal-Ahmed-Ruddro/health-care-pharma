@@ -9,42 +9,48 @@ import Login from "./Pages/Login/Login";
 import Footer from "./Pages/Shared/Footer/Footer";
 import NotFound from "./Pages/NotFound/NotFound";
 import Regester from "./Pages/Regester/Regester";
-
-
+import ServiceDetails from "./Pages/Home/ServiceDetails/ServiceDetails";
+import AuthProvider from "./Pages/Context/AuthProvider";
+import PrivateRoute from "./Pages/PrivateRoute/PrivateRoute";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Header></Header>
-      <Switch>
-        <Route exact path="/">
-          <Home></Home>
-        </Route>
-        <Route exact path="/home">
-          <Home></Home>
-        </Route>
-        <Route exact path="/team">
-          <Team></Team>
-        </Route>
-        <Route exact path="/about">
-          <About></About>
-        </Route>
-        <Route path="/contact">
-          <Contact></Contact>
-        </Route>
-        <Route exact path="/login">
-          <Login></Login>
-        </Route>
-        <Route exact path="/regester">
-          <Regester></Regester>
-        </Route>
-        <Route path="*">
-          <NotFound></NotFound>
-        </Route>
-      </Switch>
-      <Footer></Footer>
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route exact path="/home">
+              <Home></Home>
+            </Route>
+            <PrivateRoute path="/serviceDetails/:serviceId">
+              <ServiceDetails></ServiceDetails>
+            </PrivateRoute>
+            <Route exact path="/team">
+              <Team></Team>
+            </Route>
+            <Route exact path="/about">
+              <About></About>
+            </Route>
+            <PrivateRoute path="/contact">
+              <Contact></Contact>
+            </PrivateRoute>
+            <Route exact path="/login">
+              <Login></Login>
+            </Route>
+            <Route exact path="/regester">
+              <Regester></Regester>
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

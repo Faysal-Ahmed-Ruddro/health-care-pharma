@@ -5,12 +5,13 @@ import formImg from "../../images/20944201.jpg";
 import googleImg from "../../images/google.png"
 import githubImg from "../../images/gihub.png"
 import { Link } from 'react-router-dom';
-import useFirebase from '../hooks/useFirebase';
+import useAuth from '../hooks/useAuth';
+
 
 
 const Login = () => {
-    const {error, signInWithGoogle, signInWithGitHub, signInWithEmailPassword } =
-      useFirebase();
+    const {error, signInWithGoogle, signInWithGitHub, signInWithEmailPassword } =useAuth()
+      
     
     const [email,setEmail] = useState("");
     const [password,sePassword] = useState("")
@@ -75,7 +76,8 @@ const Login = () => {
                   </Button>
                 </div>
                 <Link to="/regester">
-                  <p>New Here? Create an account</p>
+                  <button className="btn btn-primary">New Here? Create an account
+                  </button>
                 </Link>
               </div>
             </div>

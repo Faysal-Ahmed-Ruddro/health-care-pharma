@@ -6,30 +6,28 @@ import img2 from "../../../images/slider-2.jpg"
 
 const Banner = () => {
     return (
-      <Carousel fade >
+      <Carousel fade>
         <Carousel.Item>
           <img
-            style={{width:"100%", height:"550px"}}
+            style={{ width: "100%", height: "550px" }}
             className="d-block w-100"
             src={img1}
             alt="First slide"
           />
-          <Carousel.Caption  className="carousel-text">
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <Carousel.Caption className="carousel-text">
+            <h1 className="banner-motto">"Take care of your body and it will take care of you".</h1>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{width:"100%", height:"550px"}}
+            style={{ width: "100%", height: "550px" }}
             className="d-block w-100"
             src={img2}
             alt="Second slide"
           />
 
           <Carousel.Caption className="carousel-text">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1  className="banner-motto">"The greatest wealth is health".</h1>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
