@@ -9,7 +9,7 @@ import useAuth from "../hooks/useAuth";
 
 
 const Regester = () => {
-  const { createUserWithEmailPassWord,signInWithGitHub,signInWithGoogle } = useAuth()
+  const {error, createUserWithEmailPassWord,signInWithGitHub,signInWithGoogle } = useAuth()
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -51,6 +51,7 @@ const Regester = () => {
                     type="password"
                     placeholder="Password"
                   />
+                  <p>{error?.message}</p>
                 </Form.Group>
                 <Button className="myBtn" type="submit">
                   Register

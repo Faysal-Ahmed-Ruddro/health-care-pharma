@@ -2,7 +2,7 @@
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.85) url(../../../images/bodyBg.jpg));
 }
 .service-title{
-    background-color:#fff;
-    color:#000;
+    background-color:rgb(61, 161, 255);
+    color:#fff;
     border-radius: 10px;
 }

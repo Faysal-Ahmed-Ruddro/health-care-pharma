@@ -19,7 +19,7 @@ const Header = () => {
               Home
             </NavLink>
             <NavLink className="text-white" to="/team">
-              Our Team
+              Our Doctors
             </NavLink>
             <NavLink className="text-white" to="/about">
               About

@@ -13,30 +13,39 @@ const About = () => {
         <div className=" mx-auto row  text-white about-card">
           <div className="col-lg-6">
             <div className="pt-2">
-              <img style={{width:"60%",height:"450px"}} src={workingLady} alt="" />
+              <img
+                style={{ width: "60%", height: "450px" }}
+                src={workingLady}
+                alt=""
+              />
             </div>
           </div>
           <div className="col-lg-6">
             <div>
-              <h2>Our Story</h2>
-              <p className="about-paragraph">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-                qui aliquid inventore optio iusto, molestias perspiciatis,
-                suscipit nobis quam fugiat ipsa! Cupiditate maxime, cumque autem
-                esse obcaecati repellendus temporibus atque inventore eaque
-                facere quisquam molestiae natus sint illum quia blanditiis a sed
-                deleniti quibusdam, veritatis placeat amet nam distinctio. Sunt
-                aut dicta nulla harum corporis et nesciunt. Deserunt doloribus
-                voluptatem dicta nesciunt porro commodi, voluptatibus quod!
-                Nostrum, incidunt! Tempore, laborum! Sed aperiam autem non
-                assumenda quaerat adipisci et ipsam dolorem, ullam harum
-                dignissimos pariatur, quisquam in neque. Animi repellat unde
-                numquam dicta, ratione a quo quidem dolore quisquam optio
-                molestias vel totam dolores omnis non. Impedit iure nisi dicta
-                officia eius. Distinctio voluptatum reiciendis sunt soluta
-                numquam? Doloribus odit aut reiciendis blanditiis sint eos, quis
-                porro enim quisquam vitae laudantium ullam repellat deleniti
-                dignissimos? 
+              <h2 className="fw-bolder mb-4">Our Story</h2>
+              <p className="philosophy-text ">
+                Patients have an important role to play at each stage of their
+                care and the five safety tips will serve to encourage them to be
+                more involved in their health care.
+              </p>
+              <p className="philosophy-text">
+                Patients can do a lot of small things to make their health-care
+                experience as safe as possible.
+              </p>
+              <p className="philosophy-text">
+                Hospitals are places of recovery and healing but there are also
+                safety risks for patients, such as infections, falls and
+                medication errors that can happen despite our best efforts.
+              </p>
+              <p className="philosophy-text">
+                Hospitals are places of recovery and healing but there are also
+                safety risks for patients, such as infections, falls and
+                medication errors that can happen despite our best efforts.
+              </p>
+              <p className="philosophy-text">
+                Hospitals are places of recovery and healing but there are also
+                safety risks for patients, such as infections, falls and
+                medication errors that can happen despite our best efforts.
               </p>
             </div>
           </div>

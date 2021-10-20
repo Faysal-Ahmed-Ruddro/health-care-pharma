@@ -12,7 +12,7 @@ const Team = () => {
     return (
       <div>
         <div className="team-title container mt-4 p-3">
-          <h2 className="p-1">Our Doctor's Team</h2>
+          <h2 className="p-1">Our Doctor's </h2>
         </div>
         <div className="row container mx-auto p-4">
           {members.map((member) => (
