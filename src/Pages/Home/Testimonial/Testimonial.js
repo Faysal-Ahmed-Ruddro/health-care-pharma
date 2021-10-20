@@ -17,7 +17,7 @@ const Testimonial = () => {
                   <img className="testimonialPic" src={img1} alt="" />
                 </div>
                 <div>
-                  <p>
+                  <p className="testimonialText">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ratione, excepturi.
                   </p>
@@ -30,7 +30,7 @@ const Testimonial = () => {
                   <img className="testimonialPic" src={img2} alt="" />
                 </div>
                 <div>
-                  <p>
+                  <p className="testimonialText ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ratione, excepturi.
                   </p>
